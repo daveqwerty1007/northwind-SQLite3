@@ -4,7 +4,7 @@
 -- Assignment 3, Questions 1, 2, and 3
 -- **********************************************
 
--- for better output
+-- for output
 .headers on
 .mode column
 
