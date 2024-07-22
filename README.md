@@ -28,3 +28,23 @@ Will show a plain text file that contiain results of all query.
 ```{bash}
 sqlite3 dist/northwind.db < assignment3.sql > results.txt
 ```
+
+## Build
+
+And here are some cmd to setup and reset the db(adapt from the origional repo)
+
+```bash
+make build  # Creates database at ./dist/northwind.db
+```
+
+## Populate with more data
+
+```bash
+make populate
+```
+
+## Print report of row counts
+
+```bash
+make report
+```
